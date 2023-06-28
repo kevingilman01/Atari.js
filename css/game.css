@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+#container {
+    text-align: center;
+
+    position: relative;
+    background-image: url('/img/arcade\ machine.png');
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#canvas {
+    background-color: black;
+}
+
+#gameOverScreen {
+    display: none;
+    color:white;
+}
+
+#highScores {
+    font-weight: 700;
+}
+
+#game-text {
+    display: none;
+    color:white;
+}
+
+.header {
+    font-family: 'Paytone One', sans-serif;
+    color: black;
+    font-size: 60px;
+}
+
+.header-darkmode {
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.scores {
+    font-weight: 700;
+}

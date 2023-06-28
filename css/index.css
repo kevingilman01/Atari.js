@@ -1,0 +1,53 @@
+/* Media Queries */
+@media (max-width: 768px) { 
+    .custom-row > div[class^="col-"]:first-child  {
+      padding-bottom: 100px; /* Specify the desired padding between collapsed columns */
+    }
+}
+
+/* Classes */
+.center-content {
+    display: block;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.center-items {
+    align-items: center;
+    text-align: center;
+    height:inherit;
+}
+
+.header {
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.header-secondary {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.description {
+    color: white;
+    text-align: left;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.card-img-top {
+    height: 40vh;
+    object-fit: cover;
+}
+
+/* IDs */
+#games {
+    background: linear-gradient(to bottom, grey, black);
+}
+
+#media {
+    background-color: lightslategray;
+}
