@@ -6,7 +6,7 @@ body {
     text-align: center;
 
     position: relative;
-    background-image: url('/img/arcade\ machine.png');
+    background-image: url('../img/arcade\ machine.png');
     background-size: cover;
     background-position: center;
     width: 1500px;
